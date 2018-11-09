@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+    font-size: +12px;
+}
+
+h1{
+    font-size: 5em !important;
+}
+
+h2{
+    font-size: 3em !important;
+}
+
+h3{
+    font-size: 1.5em !important;
+}
+
+.title{
+    display: block;
+}
+
+.ingredient_item{
+    padding-left: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px repeat(3, 1fr);
+}
+
+
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #DC73FF;
+}
+
+
+.sidePanel{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: #222;
+
+    padding: 10px;
+}
+
+.entreeOne{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.entreeTwo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+.entreeThree{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+.unavailable_item{
+    color: #8c0615;
+    display: inline;
+}
